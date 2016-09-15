@@ -1,9 +1,8 @@
 ﻿<Window x:Class="Untangle.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525" MouseMove="Window_MouseMove" MouseUp="Window_MouseUp">
+        Title="MainWindow" Height="1500" Width="1500" MouseMove="Window_MouseMove" MouseUp="Window_MouseUp" MouseDown="Window_MouseDown" MouseWheel="Window_MouseWheel" KeyDown="Window_KeyDown">
     <Grid>
-        <Canvas Name="canvas">
-        </Canvas>
+        <Canvas Name="canvas"/>
     </Grid>
 </Window>
